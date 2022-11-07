@@ -13,4 +13,7 @@ if (b > max){
         max = c;
     }
 }
+else if (c > max){
+    max = c;
+}
 Console.WriteLine("Максимальное число : " + max);
