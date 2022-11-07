@@ -9,11 +9,8 @@ int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 if (b > max){
     max = b;
-    if (c > max ){
+    }
+if (c > max ){
         max = c;
     }
-}
-else if (c > max){
-    max = c;
-}
 Console.WriteLine("Максимальное число : " + max);
