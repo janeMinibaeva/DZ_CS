@@ -6,4 +6,4 @@ if (number > 99 && number < 1000){
     int result = (number/10)%10;
     Console.WriteLine(result); 
 }
-else Console.WriteLine("не трехзначное число"); 
+else Console.WriteLine("не трехзначное"); 
